@@ -3,6 +3,7 @@ import { createBrowserHistory } from "history";
 
 import Header from "components/header";
 import CoinMarketData from "pages/coinMarketData";
+import CoinPriceHistory from "pages/coinPriceHistory";
 
 import "./App.scss";
 
@@ -17,6 +18,7 @@ export const App = () => {
         <Router>
           <Routes>
             <Route path="/" element={<CoinMarketData />} />
+            <Route path="/:id" element={<CoinPriceHistory />} />
           </Routes>
         </Router>
       </main>
