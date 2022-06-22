@@ -1,0 +1,25 @@
+@import "styles/colours.scss";
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $colour-neutral-primary;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.25vw;
+  }
+}
