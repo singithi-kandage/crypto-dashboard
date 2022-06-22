@@ -20,7 +20,6 @@
 
   td {
     padding: 1em;
-    color: white;
 
     &.positive {
       color: $colour-positive;
@@ -39,6 +38,7 @@
 
     tr:hover {
       background-color: lighten($colour-medium-primary, 10%);
+      color: black;
       opacity: 0.6;
     }
   }

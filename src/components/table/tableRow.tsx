@@ -51,7 +51,7 @@ const TableRow = ({
     } else if (typeof displayedValue === "number" && displayedValue > 0) {
       return { color: "green" };
     } else {
-      return { color: "white" };
+      return { color: "dark gray" };
     }
   };
 
